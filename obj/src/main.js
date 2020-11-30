@@ -10,6 +10,7 @@ import 'vant/lib/index.css';
 
 Vue.use(ElementUI);
 Vue.use(Vant);
+axios.defaults.baseURL = "api";
 Vue.prototype.axios = axios;
 Vue.config.productionTip = false;
 
